@@ -1,15 +1,15 @@
-# Clima Medellín - Juan Pablo Soto
+# Clima MedellÃ­n - Juan Pablo Soto
 
-Aplicación web en ASP.NET Core Razor Pages (.NET 8) que muestra el clima en Medellín y alrededores con animaciones y tarjetas. Diseñada como entrega de trabajo práctico.
+AplicaciÃ³n web en ASP.NET Core Razor Pages (.NET 8) que muestra el clima en MedellÃ­n y alrededores con animaciones y tarjetas. DiseÃ±ada como entrega de trabajo prÃ¡ctico.
 
 Contenido del repositorio
 
 * Dockerfile
-* Código fuente (WebApplication1/)
+* CÃ³digo fuente (WebApplication1/)
 * wwwroot/ con CSS y JS para animaciones
 * .env.example con la variable OPENWEATHER\_API\_KEY=YOUR\_KEY
-* DEPLOYMENT\_AND\_SUBMISSION.txt con el detalle del proceso
-* screenshots/ (añadir hasta 4 imágenes)
+* Entrega final con el detalle del proceso
+
 
 Requisitos
 
@@ -17,9 +17,9 @@ Requisitos
 * (Opcional) Docker Compose
 * API key de OpenWeatherMap
 
-Cómo ejecutar
+CÃ³mo ejecutar
 
-1. Crear archivo .env en la raíz del proyecto con tu clave:
+1. Crear archivo .env en la raÃ­z del proyecto con tu clave:
 
    OPENWEATHER\_API\_KEY=TU\_API\_KEY
 
@@ -32,7 +32,7 @@ Cómo ejecutar
 
    sudo docker compose up --build -d
 
-3. Verificar que esté corriendo:
+3. Verificar que estÃ© corriendo:
 
    docker ps
    docker logs -f webapp
@@ -52,4 +52,5 @@ Cómo ejecutar
   Notas
 
   
+
 
